@@ -10,6 +10,12 @@ namespace DotNetCourse
     {
         static void Main(string[] args)
         {
+            /* Sum two numbers
+
+             int result = Sum(1, 2);
+
+             Console.WriteLine(result);*/
+
             int[] numbers = { 5, 12, 7, 18, 20, 68 };
 
             int total = Sum(numbers);
@@ -25,5 +31,10 @@ namespace DotNetCourse
             }
             return sum;
         }
+
+        /*private static int Sum(int valueOne, int valueTwo)
+        {
+            return valueOne + valueTwo;
+        }*/
     }
 }
