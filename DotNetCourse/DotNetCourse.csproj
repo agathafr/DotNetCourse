@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}</ProjectGuid>
+    <ProjectGuid>{7251D536-8797-44C5-8B17-422D4BA7D1DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>DotNetCourse</RootNamespace>
     <AssemblyName>DotNetCourse</AssemblyName>
