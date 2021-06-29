@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAccumulator", "DotNetCourse\SumAccumulator.csproj", "{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{55331E61-30B0-4B09-B368-1FC9FCE6919B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrapezoidArea", "TrapezoidArea\TrapezoidArea.csproj", "{0D9DFF8A-62AA-4792-A858-E88570460162}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandArea", "LandArea\LandArea.csproj", "{192FF848-58DF-42A7-B912-0555D1D423B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAccumulator", "SumAccumulator\SumAccumulator.csproj", "{A55C2E68-2C60-4D51-B656-8D16E181A99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2A06E8A-3BCA-4992-B02B-E8C00C9B8861}.Release|Any CPU.Build.0 = Release|Any CPU
 		{55331E61-30B0-4B09-B368-1FC9FCE6919B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55331E61-30B0-4B09-B368-1FC9FCE6919B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55331E61-30B0-4B09-B368-1FC9FCE6919B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{192FF848-58DF-42A7-B912-0555D1D423B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192FF848-58DF-42A7-B912-0555D1D423B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192FF848-58DF-42A7-B912-0555D1D423B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55C2E68-2C60-4D51-B656-8D16E181A99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55C2E68-2C60-4D51-B656-8D16E181A99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55C2E68-2C60-4D51-B656-8D16E181A99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55C2E68-2C60-4D51-B656-8D16E181A99A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
