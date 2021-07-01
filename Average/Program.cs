@@ -12,7 +12,7 @@ namespace MediaNotas
         private static double media;
         static void Main(string[] args)
         {
-            LeituradeDados();
+            LeituraDeDados();
 
             CalculoMedia(alunos);
 
@@ -20,7 +20,7 @@ namespace MediaNotas
 
             Console.ReadKey();
         }
-        private static void LeituradeDados()
+        private static void LeituraDeDados()
         {
             char flag = 'S';
 
