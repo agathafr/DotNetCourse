@@ -81,5 +81,18 @@ namespace Snack
         {
             Console.WriteLine("Total R$" + CalculaPrecoTotal(cod, qtde).ToString("F2", culture));
         }
+
+        #region
+            //static double[] precos = new double[5] { 4.8, 4.5, 5.0, 2.0, 1.5 };
+            //static string[] pedido = Console.ReadLine().Split(' ');
+
+            //static int codigo = int.Parse(pedido[0]);
+            //static int quantidade = int.Parse(pedido[1]);
+
+            //double total = quantidade * precos[codigo - 1];
+            //Console.WriteLine("Total" + total.ToString("F2"));
+
+            //Console.ReadKey();
+        #endregion
     }
 }
