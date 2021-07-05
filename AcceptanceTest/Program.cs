@@ -11,10 +11,12 @@ namespace AcceptanceTest
         // declaração de variáveis
 
         private static int a, b, c, d;
-
+        static string[] valores;
+        static int[] arrayInt;
         static void Main(string[] args)
         {
             RecebeDados();
+            SeparaDados(arrayInt);
             SomaValoresAEB(a, b);
             SomaValoresCED(c, d);
             TestaSeCEDSaoPositivos(c, d);
@@ -28,17 +30,34 @@ namespace AcceptanceTest
         // entrada de dados
         static void RecebeDados()
         {
-            Console.WriteLine("Informe um valor para a: ");
-            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Informe quatro valores: ");
+            valores = Console.ReadLine().Split(' ');
+            arrayInt = Array.ConvertAll(valores, int.Parse);
 
-            Console.WriteLine("Informe um valor para b: ");
-            b = int.Parse(Console.ReadLine());
+            // a = int.Parse(valores[0]);
+        }
 
-            Console.WriteLine("Informe um valor para c: ");
-            c = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Informe um valor para d: ");
-            d = int.Parse(Console.ReadLine());
+        static void SeparaDados(int[] arrayInt)
+        {
+            for (int i = 0; i < arrayInt.Length; i++)
+            {
+                if (i == 0)
+                {
+                    a = arrayInt[i];
+                }
+                else if (i == 1)
+                {
+                    b = arrayInt[i];
+                }
+                else if (i == 2)
+                {
+                    c = arrayInt[i];
+                }
+                else
+                {
+                    d = arrayInt[i];
+                }
+            }
         }
 
         // processamento
@@ -54,7 +73,8 @@ namespace AcceptanceTest
 
         static bool TestaSeCEDSaoPositivos(int c, int d)
         {
-            if(c > 0 && d > 0){
+            if (c > 0 && d > 0)
+            {
                 return true;
             }
             return false;
@@ -62,7 +82,7 @@ namespace AcceptanceTest
 
         static bool TestaSeAEPar(int a)
         {
-            if(a % 2 == 0)
+            if (a % 2 == 0)
             {
                 return true;
             }
@@ -71,7 +91,7 @@ namespace AcceptanceTest
 
         static bool ComparaValores(int a, int b, int c, int d)
         {
-            if(b > c && d > a && SomaValoresCED(c, d) > SomaValoresAEB(a, b) && TestaSeCEDSaoPositivos(c, d) == true && TestaSeAEPar(a) == true)
+            if (b > c && d > a && SomaValoresCED(c, d) > SomaValoresAEB(a, b) && TestaSeCEDSaoPositivos(c, d) == true && TestaSeAEPar(a) == true)
             {
                 return true;
             }
@@ -81,7 +101,7 @@ namespace AcceptanceTest
         // saída de dados
         static void ExibeSaida(int a, int b, int c, int d)
         {
-            if(ComparaValores(a, b, c, d) == true)
+            if (ComparaValores(a, b, c, d) == true)
             {
                 Console.WriteLine("Valores aceitos!");
             }
