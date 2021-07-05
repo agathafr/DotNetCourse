@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAccumulator", "SumAccumu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateConverter", "DateConverter\DateConverter.csproj", "{82E77022-5572-4DC8-9CFA-B88CD548724D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTest", "AcceptanceTest\AcceptanceTest.csproj", "{447E1FD6-AB76-4180-A5D2-ADA84520ED00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{82E77022-5572-4DC8-9CFA-B88CD548724D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82E77022-5572-4DC8-9CFA-B88CD548724D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82E77022-5572-4DC8-9CFA-B88CD548724D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447E1FD6-AB76-4180-A5D2-ADA84520ED00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447E1FD6-AB76-4180-A5D2-ADA84520ED00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447E1FD6-AB76-4180-A5D2-ADA84520ED00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447E1FD6-AB76-4180-A5D2-ADA84520ED00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
