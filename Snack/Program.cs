@@ -83,16 +83,19 @@ namespace Snack
         }
 
         #region
-            //static double[] precos = new double[5] { 4.8, 4.5, 5.0, 2.0, 1.5 };
-            //static string[] pedido = Console.ReadLine().Split(' ');
+        // double[] precos = new double[5] { 4.8, 4.5, 5.0, 2.0, 1.5 };
+        // string[] lanche = new string[5] {"Cachorro Quente", "X-Bacon", "Torrada Simples", "Refrigerante"};
+        // string[] pedido = Console.ReadLine().Split(' ');
 
-            //static int codigo = int.Parse(pedido[0]);
-            //static int quantidade = int.Parse(pedido[1]);
+        // int codigo = int.Parse(pedido[0]);
+        // int quantidade = int.Parse(pedido[1]);
 
-            //double total = quantidade * precos[codigo - 1];
-            //Console.WriteLine("Total" + total.ToString("F2"));
+        // double total = quantidade * precos[codigo - 1];
 
-            //Console.ReadKey();
+        // Console.WriteLine("Lanche" + lanche[codigo - 1]);
+        // Console.WriteLine("Total" + total.ToString("F2"));
+
+        // Console.ReadKey();
         #endregion
     }
 }
