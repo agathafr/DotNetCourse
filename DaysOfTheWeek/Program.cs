@@ -53,7 +53,7 @@ namespace DaysOfTheWeek
                     dia = "Domingo";
                     break;
                 default:
-                    Console.WriteLine("Informe um número de 1 a 7!");
+                    dia = "Valor inválido!";
                     break;
             }
             return dia;
