@@ -10,7 +10,7 @@ namespace CumulativeAllocation
     {
         // declaração de variáveis
         static int minutos;
-        static double valor;
+     
         static void Main(string[] args)
         {
             RecebeDado();
