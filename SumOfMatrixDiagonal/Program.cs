@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SumOfMatrixDiagonal
-{   
+{
     class Program
     {
         static int[,] matrix = new int[6, 6];
@@ -24,7 +24,7 @@ namespace SumOfMatrixDiagonal
         static void AddElementsToArray()
         {
             Random rdn = new Random();
-            
+
             for (int i = 0; i < 6; i++)
             {
                 for (int j = 0; j < 6; j++)
@@ -52,9 +52,9 @@ namespace SumOfMatrixDiagonal
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    if(i == j)
+                    if (i == j)
                     {
-                        sum += matrix[i, j]; 
+                        sum += matrix[i, j];
                     }
                 }
             }
