@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples", "Multiples\Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurationOfAGame", "DurationOfAGame\DurationOfAGame.csproj", "{3026F721-0A70-4B27-BF0C-433D39D74F78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfMatrixDiagonal", "SumOfMatrixDiagonal\SumOfMatrixDiagonal.csproj", "{8FD8DF24-63DB-4408-A397-FBD9AC2DF611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3026F721-0A70-4B27-BF0C-433D39D74F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3026F721-0A70-4B27-BF0C-433D39D74F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3026F721-0A70-4B27-BF0C-433D39D74F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD8DF24-63DB-4408-A397-FBD9AC2DF611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD8DF24-63DB-4408-A397-FBD9AC2DF611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD8DF24-63DB-4408-A397-FBD9AC2DF611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD8DF24-63DB-4408-A397-FBD9AC2DF611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
