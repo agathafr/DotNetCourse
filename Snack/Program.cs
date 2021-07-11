@@ -82,6 +82,28 @@ namespace Snack
             Console.WriteLine("Total R$" + CalculaPrecoTotal(cod, qtde).ToString("F2", culture));
         }
 
+        static void SolucaoDoProfessor()
+        {
+            double[] precos = new double[5] { 4.8, 4.5, 5.0, 2.0, 1.5 };
+            string[] lanche = new string[5] { "Cachorro Quente", "X-Salada","X-Bacon", "Torrada Simples", "Refrigerante" };
+
+            Console.WriteLine("Produtos");
+            Console.WriteLine("1-Cachorro Quente 2-X-Salada 3-X-Bacon 4-Torrada Simples 5-Refrigerante");
+            Console.WriteLine("Digite o código do produto e a quantidade desejada: ");
+            
+            string[] pedido = Console.ReadLine().Split(' ');
+
+            int codigo = int.Parse(pedido[0]);
+            int quantidade = int.Parse(pedido[1]);
+
+            double total = quantidade * precos[codigo - 1];
+
+            Console.WriteLine("Lanche escolhido: " + lanche[codigo - 1]);
+            Console.WriteLine("Total do pedido: " + total.ToString("F2"));
+
+            Console.ReadKey();
+        }
+
         #region
         // double[] precos = new double[5] { 4.8, 4.5, 5.0, 2.0, 1.5 };
         // string[] lanche = new string[5] {"Cachorro Quente", "X-Bacon", "Torrada Simples", "Refrigerante"};

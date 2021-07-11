@@ -24,10 +24,10 @@ namespace DurationOfAGame
         // entrada de dados
         static void RecebeDados()
         {
-            Console.WriteLine("Digite o horário que o jogo começou: ");
+            Console.WriteLine("Digite a hora em que o jogo começou: ");
             horaInicio = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o horário que o jogo terminou: ");
+            Console.WriteLine("Digite a hora em que o jogo terminou: ");
             horaFim = int.Parse(Console.ReadLine());
         }
 
