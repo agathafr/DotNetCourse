@@ -13,15 +13,14 @@ namespace SumOfMatrixDiagonal
 
         static void Main(string[] args)
         {
-            AddElementsToArray();
+            AddElementsToMatrix();
             DisplayMatrixElements();
-            SumMatrixDiagonalElements();
-            DisplaySumOfMatrixDiagonalElements(sum);
+            DisplaySumOfMatrixDiagonalElements();
 
             Console.ReadKey();
         }
 
-        static void AddElementsToArray()
+        static void AddElementsToMatrix()
         {
             Random rdn = new Random();
 
@@ -29,7 +28,7 @@ namespace SumOfMatrixDiagonal
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    matrix[i, j] = rdn.Next(1, 60);
+                    matrix[i, j] = rdn.Next(1, 5);
                 }
             }
         }
@@ -40,7 +39,7 @@ namespace SumOfMatrixDiagonal
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    Console.Write("[" + matrix[i, j] + "]" + "\t");
+                    Console.Write("[" + matrix[i, j] + "]");
                 }
                 Console.WriteLine();
             }
@@ -61,9 +60,9 @@ namespace SumOfMatrixDiagonal
             return sum;
         }
 
-        static void DisplaySumOfMatrixDiagonalElements(int sum)
+        static void DisplaySumOfMatrixDiagonalElements()
         {
-            Console.WriteLine("The sum of the elements of the diagonal of the matrix is " + sum);
+            Console.WriteLine("The sum of the elements of the diagonal of the matrix is " + SumMatrixDiagonalElements());
         }
     }
 }
