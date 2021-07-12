@@ -21,7 +21,7 @@ namespace SimpleSort
         
         static void ReceivesData()
         {
-            Console.WriteLine("Digite 3 números inteiros: ");
+            Console.WriteLine("Enter three integers: ");
             input = Console.ReadLine().Split(' ');
 
             for (int i = 0; i < numbers.Length; i++)
