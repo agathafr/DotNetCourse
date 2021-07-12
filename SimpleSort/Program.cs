@@ -18,7 +18,7 @@ namespace SimpleSort
             DisplaysOutput();
             Console.ReadKey();
         }
-        
+
         static void ReceivesData()
         {
             Console.WriteLine("Enter three integers: ");
