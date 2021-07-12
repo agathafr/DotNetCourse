@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Month", "Month\Month.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveNumbers", "PositiveNumbers\PositiveNumbers.csproj", "{6B82A0D7-F75A-4675-BE06-E2573A81416F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveNumbersAndAverage", "PositiveNumbersAndAverage\PositiveNumbersAndAverage.csproj", "{6F9E7C23-CD53-43FC-AC5A-B06EACDFB58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{6B82A0D7-F75A-4675-BE06-E2573A81416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B82A0D7-F75A-4675-BE06-E2573A81416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B82A0D7-F75A-4675-BE06-E2573A81416F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9E7C23-CD53-43FC-AC5A-B06EACDFB58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9E7C23-CD53-43FC-AC5A-B06EACDFB58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9E7C23-CD53-43FC-AC5A-B06EACDFB58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9E7C23-CD53-43FC-AC5A-B06EACDFB58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
