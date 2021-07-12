@@ -8,7 +8,7 @@ namespace PositiveNumbers
 {
     class Program
     {
-        static int[] numbers = new int [6];
+        static int[] numbers = new int[6];
         static int count = 0;
         static void Main(string[] args)
         {
@@ -21,7 +21,7 @@ namespace PositiveNumbers
         static void ReceivesData()
         {
             Console.WriteLine("Enter six positive and/or negative numbers: ");
-            
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = int.Parse(Console.ReadLine());
