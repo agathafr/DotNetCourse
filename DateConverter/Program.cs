@@ -46,7 +46,7 @@ namespace DateConverter
         {
             return Dec(CalculaMeses(dias)) * 30;
         }
-        
+
         static float RetornaAnos(int dias)
         {
             return (float)Math.Truncate(CalculaAnos(dias));
