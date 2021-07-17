@@ -24,6 +24,8 @@ namespace Month
         {
             Console.WriteLine("Enter a integer number between 1 and 12 (including): ");
             number = int.Parse(Console.ReadLine());
+
+            Console.Clear();
         }
 
         static string IdentifiesMonth()
