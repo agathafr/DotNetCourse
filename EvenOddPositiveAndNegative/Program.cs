@@ -26,6 +26,8 @@ namespace EvenOddPositiveAndNegative
             {
                 numbers[i] = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             }
+
+            Console.Clear();
         }
 
         static int CountsEvenValues()
