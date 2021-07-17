@@ -30,6 +30,7 @@ namespace SixConsecutiveOddNumbers
 
             Console.Clear();
         }
+
         static void FindsSixConsecutiveOddNumbers()
         {
             for (int i = 0; i < numbers.Length; i++)
