@@ -27,6 +27,7 @@ namespace PositiveNumbersAndAverage
             {
                 numbers[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             }
+            Console.Clear();
         }
 
         static int CountsPositiveNumbers()
