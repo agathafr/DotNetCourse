@@ -11,15 +11,15 @@ namespace Triangle
     {
         static string[] numbers;
         static double a, b, c;
-        static double perimeter;
-        static double area;
+        static double perimeterTriangle;
+        static double areaTrapezium;
         static void Main(string[] args)
         {
             ReceivesData();
-            ChecksIfItIsPossibleToMakeATriangle(a, b, c);
-            perimeter = CalculatesPerimeterOfTriangle(a, b, c);
-            area = CalculatesAreaOfTrapezium(a, b, c);
-            DisplaysOutput(a, b, c);
+            ChecksIfItIsPossibleToMakeATriangle();
+            areaTrapezium = CalculatesAreaOfTrapezium();
+            perimeterTriangle = CalculatesPerimeterOfTriangle();
+            DisplaysOutput();
 
             Console.ReadKey();
         }
@@ -34,29 +34,31 @@ namespace Triangle
 
             Console.Clear();
         }
-        static bool ChecksIfItIsPossibleToMakeATriangle(double a, double b, double c)
-        {
+
+        static bool ChecksIfItIsPossibleToMakeATriangle()
+        {   // um dos lados maior que o módulo da diferença dos outros 2 lados e tb menor que a soma desses lados
             if (a > Math.Abs(b - c) && a < (b + c) && b > Math.Abs(a - c) && b < a + c && c > Math.Abs(a - b) && c < a + b)
                 return true;
             return false;
         }
 
-        static double CalculatesPerimeterOfTriangle(double a, double b, double c)
+        static double CalculatesPerimeterOfTriangle()
         {
             return a + b + c;
         }
 
-        static double CalculatesAreaOfTrapezium(double a, double b, double c)
+        static double CalculatesAreaOfTrapezium()
         {
             return (a + b) * c / 2;
         }
 
-        static void DisplaysOutput(double a, double b, double c)
+        static void DisplaysOutput()
         {
-            if (ChecksIfItIsPossibleToMakeATriangle(a, b, c) == true)
-                Console.WriteLine("Area = " + perimeter.ToString("F1"));
+            if (ChecksIfItIsPossibleToMakeATriangle() == false)
+                Console.WriteLine("Area = " + areaTrapezium.ToString("F1"));
             else
-                Console.WriteLine("Perimetro = " + area.ToString("F1"));
+                Console.WriteLine("Perimetro = " + perimeterTriangle.ToString("F1"));
+
         }
     }
 }
