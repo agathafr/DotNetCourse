@@ -15,6 +15,7 @@ namespace SimpleSort
         static void Main(string[] args)
         {
             ReceivesData();
+            SortsInAscendingOrder();
             DisplaysOutput();
             Console.ReadKey();
         }
@@ -50,8 +51,6 @@ namespace SimpleSort
 
         static void DisplaysOutput()
         {
-            SortsInAscendingOrder();
-
             for (int i = 0; i < numbers.Length; i++)
             {
                 Console.WriteLine(numbers[i]);
@@ -59,7 +58,7 @@ namespace SimpleSort
 
             Console.WriteLine();
 
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < input.Length; i++)
             {
                 Console.WriteLine(input[i]);
             }
