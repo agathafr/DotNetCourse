@@ -25,6 +25,8 @@ namespace EvenNumbers
             {
                 numbers[i] = int.Parse(Console.ReadLine());
             }
+
+            Console.Clear();
         }
 
         static int Counts()
