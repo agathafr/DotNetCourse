@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +23,7 @@ namespace EvenOddPositiveAndNegative
             Console.WriteLine("Enter five values: ");
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                numbers[i] = int.Parse(Console.ReadLine());
             }
 
             Console.Clear();
