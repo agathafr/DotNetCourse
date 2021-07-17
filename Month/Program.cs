@@ -14,7 +14,7 @@ namespace Month
         static void Main(string[] args)
         {
             ReceivesData();
-            month = IdentifiesMonth(number);
+            month = IdentifiesMonth();
             DisplaysOutput();
 
             Console.ReadKey();
@@ -26,7 +26,7 @@ namespace Month
             number = int.Parse(Console.ReadLine());
         }
 
-        static string IdentifiesMonth(int number)
+        static string IdentifiesMonth()
         {
             switch (number)
             {
