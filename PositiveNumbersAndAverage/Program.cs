@@ -16,7 +16,7 @@ namespace PositiveNumbersAndAverage
         {
             ReceivesData();
             DisplaysOutput();
-            
+
             Console.ReadKey();
         }
 
