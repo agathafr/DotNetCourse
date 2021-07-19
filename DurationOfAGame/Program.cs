@@ -36,7 +36,7 @@ namespace DurationOfAGame
         {
             if (horaInicio > horaFim || horaInicio == 0 && horaFim == 0)
                 return 24 - horaInicio + horaFim;
-            else 
+            else
                 return horaFim - horaInicio;
         }
 
