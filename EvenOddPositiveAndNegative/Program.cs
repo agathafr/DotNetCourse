@@ -9,7 +9,7 @@ namespace EvenOddPositiveAndNegative
     class Program
     {
         static int[] numbers = new int[5];
-        
+
         static void Main(string[] args)
         {
             ReceivesData();
@@ -86,7 +86,7 @@ namespace EvenOddPositiveAndNegative
             Console.WriteLine(CountsEvenValues() + " valor(es) par(es)");
             Console.WriteLine(CountsOddValues() + " valor(es) ímpar(es)");
             Console.WriteLine(CountsPositiveValues() + " valor(es) positivo(s)");
-            Console.WriteLine(CountsNegativeValues() +  " valor(es) negativo(s)");
+            Console.WriteLine(CountsNegativeValues() + " valor(es) negativo(s)");
         }
     }
 }
