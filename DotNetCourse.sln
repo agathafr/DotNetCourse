@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixConsecutiveOddNumbers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumbers", "EvenNumbers\EvenNumbers.csproj", "{2BEA3EA9-1670-4865-94C4-D687C735D822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salary", "Salary\Salary.csproj", "{A40EFEEF-60FC-4A63-BF1C-D92E5FD42536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{2BEA3EA9-1670-4865-94C4-D687C735D822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BEA3EA9-1670-4865-94C4-D687C735D822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BEA3EA9-1670-4865-94C4-D687C735D822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40EFEEF-60FC-4A63-BF1C-D92E5FD42536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40EFEEF-60FC-4A63-BF1C-D92E5FD42536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40EFEEF-60FC-4A63-BF1C-D92E5FD42536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40EFEEF-60FC-4A63-BF1C-D92E5FD42536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
