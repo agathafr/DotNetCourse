@@ -48,7 +48,7 @@ namespace BhaskarasFormula
 
         static void DisplaysOutput()
         {
-            if(a != 0 && CalculatesTheValueOfDelta() > 0)
+            if (a != 0 && CalculatesTheValueOfDelta() > 0)
             {
                 Console.WriteLine("R1 = " + CalculatesThePositiveRoot().ToString("N5"));
                 Console.WriteLine("R2 = " + CalculatesTheNegativeRoot().ToString("N5"));
