@@ -39,7 +39,7 @@ namespace Salary
         {
             return monthlySalary * workedHours;
         }
-        
+
         static void DisplaysOutput()
         {
             Console.WriteLine("Number = " + number);
